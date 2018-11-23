@@ -4,9 +4,34 @@
              x:Class="Quizzical.Views.CategoryPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <!-- Place new controls here -->
+            <Label Text="Categories" 
+               FontSize="30"      
+               FontAttributes="Bold"
+           HorizontalOptions="Center"
+           VerticalOptions="Start" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="400" />
+                    <RowDefinition Height ="400" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1" Text="History" BackgroundColor="#93C90E"
+                FontAttributes="Bold" TextColor="White" Clicked="Button1Clicked"/>
+                <Button Grid.Row="0" Grid.Column="1" Text="Sports" BackgroundColor="Red" TextColor="White" Clicked="Button2Clicked"/>
+                <Button Grid.Column="0" Grid.Row="1" Text="Science" BackgroundColor="#FFE53C25"
+                FontAttributes="Bold" TextColor="White" VerticalOptions="FillAndExpand" Clicked="Button3Clicked"/>
+                <Button Grid.Column="1" Grid.Row="1" Text="Entertainment" BackgroundColor="#98A4AE"
+                FontAttributes="Bold" TextColor="White" VerticalOptions="FillAndExpand" Clicked="Button4Clicked"/>
+            </Grid>
+
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

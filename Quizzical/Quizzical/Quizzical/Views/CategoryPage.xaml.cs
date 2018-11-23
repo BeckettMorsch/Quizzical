@@ -16,5 +16,26 @@ namespace Quizzical.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button1Clicked(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void Button2Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button3Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button4Clicked(object sender, EventArgs e)
+        {
+            
+        }
+    }
 }
