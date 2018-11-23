@@ -1,0 +1,13 @@
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\bin\Debug\netstandard2.0\Quizzical.deps.json
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\bin\Debug\netstandard2.0\Quizzical.dll
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\bin\Debug\netstandard2.0\Quizzical.pdb
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.csprojAssemblyReference.cache
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.csproj.CoreCompileInputs.cache
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.AssemblyInfoInputs.cache
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.AssemblyInfo.cs
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.dll
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.pdb
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
