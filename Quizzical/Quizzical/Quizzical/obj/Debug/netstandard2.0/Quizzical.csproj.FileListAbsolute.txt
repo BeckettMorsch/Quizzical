@@ -11,3 +11,4 @@ C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical
 C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Quizzical.pdb
 C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
+C:\Users\B&G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\obj\Debug\netstandard2.0\Views\IndividualCategoriesPage.xaml.g.cs
