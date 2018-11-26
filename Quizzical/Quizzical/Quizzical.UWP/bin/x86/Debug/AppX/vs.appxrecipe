@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-23T23:26:46.753</Modified>
+      <Modified>2018-11-25T20:26:22.141</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical.UWP\bin\x86\Debug\Quizzical.UWP.exe">
       <PackagePath>entrypoint\Quizzical.UWP.exe</PackagePath>
-      <Modified>2018-11-23T23:26:46.156</Modified>
+      <Modified>2018-11-25T20:26:21.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\B&amp;G\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -713,7 +713,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical\bin\Debug\netstandard2.0\Quizzical.dll">
       <PackagePath>Quizzical.dll</PackagePath>
-      <Modified>2018-11-23T23:26:41.106</Modified>
+      <Modified>2018-11-25T20:26:17.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -860,11 +860,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-23T23:26:45.758</Modified>
+      <Modified>2018-11-25T20:26:21.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-23T23:26:45.760</Modified>
+      <Modified>2018-11-25T20:26:21.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -925,7 +925,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\B&amp;G\Documents\GitHub\QuizzalApp\Quizzical\Quizzical\Quizzical\Quizzical.UWP\bin\x86\Debug\Core\Quizzical.UWP.exe">
       <PackagePath>Quizzical.UWP.exe</PackagePath>
-      <Modified>2018-11-23T23:26:46.746</Modified>
+      <Modified>2018-11-25T20:26:22.137</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

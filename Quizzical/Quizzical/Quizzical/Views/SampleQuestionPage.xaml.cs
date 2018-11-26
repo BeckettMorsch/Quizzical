@@ -17,26 +17,26 @@ namespace Quizzical.Views
             InitializeComponent();
         }
 
-        private void Button1Clicked(object sender, EventArgs e)
+        async private void Button1Clicked(object sender, EventArgs e)
         {
-            //Bring to CORRECT Page
+            await Navigation.PushModalAsync(new NavigationPage(new CorrectPage()));
             //Bring to next question
 
         }
 
-        private void Button2Clicked(object sender, EventArgs e)
+        async private void Button2Clicked(object sender, EventArgs e)
         {
-            //Bring to INCORRECT Page
+            await Navigation.PushModalAsync(new NavigationPage(new IncorrectPage()));
         }
 
-        private void Button3Clicked(object sender, EventArgs e)
+        async private void Button3Clicked(object sender, EventArgs e)
         {
-            //Bring to INCORRECT Page
+            await Navigation.PushModalAsync(new NavigationPage(new IncorrectPage()));
         }
 
-        private void Button4Clicked(object sender, EventArgs e)
+        async private void Button4Clicked(object sender, EventArgs e)
         {
-            //Bring to INCORRECT Page
+            await Navigation.PushModalAsync(new NavigationPage(new IncorrectPage()));
         }
     }
 }

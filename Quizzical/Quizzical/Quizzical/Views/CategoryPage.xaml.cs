@@ -17,9 +17,9 @@ namespace Quizzical.Views
 			InitializeComponent ();
 		}
 
-        private void Button1Clicked(object sender, EventArgs e)
+        async private void Button1Clicked(object sender, EventArgs e)
         {
-           
+            await Navigation.PushModalAsync(new NavigationPage(new SampleQuestionPage()));
         }
 
         private void Button2Clicked(object sender, EventArgs e)
