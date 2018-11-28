@@ -18,7 +18,7 @@ namespace Quizzical.Views
 		{
 			InitializeComponent ();
 
-            BindingContext = viewModel = new CategoriesViewModel();
+            BindingContext = CategoriesViewModel.Current;
 		}
 	}
 }
