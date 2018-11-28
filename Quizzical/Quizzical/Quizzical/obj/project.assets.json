@@ -346,23 +346,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\B&G\\.nuget\\packages\\": {},
+    "C:\\Users\\bmors\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj",
+      "projectUniqueName": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj",
       "projectName": "Quizzical",
-      "projectPath": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj",
-      "packagesPath": "C:\\Users\\B&G\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\obj\\",
+      "projectPath": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj",
+      "packagesPath": "C:\\Users\\bmors\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\B&G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bmors\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

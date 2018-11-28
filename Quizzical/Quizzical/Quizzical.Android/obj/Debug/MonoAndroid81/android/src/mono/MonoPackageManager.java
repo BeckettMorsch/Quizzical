@@ -106,6 +106,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Quizzical.Android.dll" comes first in this list. */
+		"Quizzical.Android.dll",
 		"FormsViewGroup.dll",
 		"Quizzical.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

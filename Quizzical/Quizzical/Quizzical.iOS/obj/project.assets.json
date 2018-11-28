@@ -719,20 +719,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\B&G\\.nuget\\packages\\": {}
+    "C:\\Users\\bmors\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical.iOS\\Quizzical.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical.iOS\\Quizzical.iOS.csproj",
       "projectName": "Quizzical.iOS",
-      "projectPath": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical.iOS\\Quizzical.iOS.csproj",
-      "packagesPath": "C:\\Users\\B&G\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical.iOS\\obj\\",
+      "projectPath": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical.iOS\\Quizzical.iOS.csproj",
+      "packagesPath": "C:\\Users\\bmors\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\B&G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bmors\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -745,8 +745,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj": {
-              "projectPath": "C:\\Users\\B&G\\Documents\\GitHub\\QuizzalApp\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj"
+            "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj": {
+              "projectPath": "C:\\Users\\bmors\\source\\repos\\Quizzical\\Quizzical\\Quizzical\\Quizzical\\Quizzical.csproj"
             }
           }
         }

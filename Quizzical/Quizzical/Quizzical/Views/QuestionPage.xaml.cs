@@ -10,37 +10,61 @@ using Xamarin.Forms.Xaml;
 
 namespace Quizzical.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class QuestionPage : ContentPage
-	{
-        CategoriesViewModel viewModel;
-        public QuestionPage ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class QuestionPage : ContentPage
+    {
+        CategoriesViewModel vm;
 
-            BindingContext = viewModel = new CategoriesViewModel();
-		}
-
-        async private void Button1Clicked(object sender, EventArgs e)
+        public QuestionPage()
         {
-            await Navigation.PushModalAsync(new NavigationPage(new CorrectPage()));
+            InitializeComponent();
+
+            this.BindingContext = vm = CategoriesViewModel.Current;
+        }
+
+        public void HandleAnswer(int answerNum)
+        {
+            vm.ShowQuestion = false;
+            
+            if (vm.Question.CorrectAnswer == answerNum)
+            {
+                // Correct
+            }
+            if (vm.CurrentQuestion < vm.Count-1)
+            {
+                vm.CurrentQuestion++;
+            }
+            else
+            {
+                // Game over
+            }
+            //await Navigation.PushModalAsync(new NavigationPage(new CorrectPage()));
+        }
+
+        private void Button1Clicked(object sender, EventArgs e)
+        {
             //Bring to next question
-
+            HandleAnswer(1);
         }
 
-        async private void Button2Clicked(object sender, EventArgs e)
+        private void Button2Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new IncorrectPage()));
+            HandleAnswer(2);
         }
 
-        async private void Button3Clicked(object sender, EventArgs e)
+        private void Button3Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new IncorrectPage()));
+            HandleAnswer(3);
         }
 
-        async private void Button4Clicked(object sender, EventArgs e)
+        private void Button4Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new IncorrectPage()));
+            HandleAnswer(4);
+        }
+
+        private void NextQuestion(object sender, EventArgs e)
+        {
+            vm.ShowQuestion = true;
         }
     }
 }
