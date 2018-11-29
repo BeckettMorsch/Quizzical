@@ -68,7 +68,7 @@ namespace Quizzical.ViewModels
             CurrentQuestion = 0;
             OnPropertyChanged("Count");
 
-            Message = "";
+            Message = "Perfect";
             ShowQuestion = true;
             
         }
