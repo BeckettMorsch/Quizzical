@@ -19,7 +19,8 @@ namespace Quizzical.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            // bring to to main page
+            Application.Current.MainPage.Navigation.PopToRootAsync();
+
         }
     }
 }

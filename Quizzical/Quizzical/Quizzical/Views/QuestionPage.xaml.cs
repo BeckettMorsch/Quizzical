@@ -81,10 +81,10 @@ namespace Quizzical.Views
                 // Show ending page
                 CategoriesViewModel.Current.Reset();
 
-                Application.Current.MainPage.Navigation.PopToRootAsync();
+                //Application.Current.MainPage.Navigation.PopToRootAsync();
                 
-//                Navigation.PopAsync();
-                //Navigation.PushModalAsync(new MainPage());
+                //Navigation.PopAsync();
+                Navigation.PushAsync(new EndPage());
 
                 /*
                  * On ending page on Play again? button or whatevs:
