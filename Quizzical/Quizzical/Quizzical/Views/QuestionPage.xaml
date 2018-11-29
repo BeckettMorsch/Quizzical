@@ -7,7 +7,7 @@
         <StackLayout>
                 <StackLayout IsVisible="{Binding ShowQuestion}">
                 <!-- Place new controls here -->
-                <Label Text="{Binding Question.QuestionNum}"
+                <Label Text="{Binding Question.Category}"
                        
                    FontSize="24"      
                    FontAttributes="Bold"
@@ -40,7 +40,8 @@
 
             </StackLayout>
             <StackLayout IsVisible="{Binding ShowAnswer}">
-                <Label Text="Correct"
+                <!--<Image Source="file.png" IsVisible="{Binding IsAnswerVisible}"/>-->
+                <Label Text="{Binding Message}"
                        FontSize="Large"
                        BackgroundColor="Green"
                        TextColor="White"
@@ -54,6 +55,7 @@
                         Clicked="NextQuestion"/>
 
             </StackLayout>
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

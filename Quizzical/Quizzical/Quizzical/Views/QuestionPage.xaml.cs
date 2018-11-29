@@ -22,22 +22,28 @@ namespace Quizzical.Views
             this.BindingContext = vm = CategoriesViewModel.Current;
         }
 
-        public void HandleAnswer(int answerNum)
+        public async void HandleAnswer(int answerNum)
         {
+            await Task.Delay(0);
+
             vm.ShowQuestion = false;
             
             if (vm.Question.CorrectAnswer == answerNum)
             {
-                // Correct
-            }
-            if (vm.CurrentQuestion < vm.Count-1)
-            {
-                vm.CurrentQuestion++;
+                //Correct
+                // vm.TotalAnswered++;
+                // vm.TotalCorrect++;
+                // vm.Score += whatever
+                vm.Message = "You are correct!";
             }
             else
             {
-                // Game over
+                vm.Message = "You are not correct!";
+
+                //Incorrect
             }
+
+
             //await Navigation.PushModalAsync(new NavigationPage(new CorrectPage()));
         }
 
@@ -65,6 +71,25 @@ namespace Quizzical.Views
         private void NextQuestion(object sender, EventArgs e)
         {
             vm.ShowQuestion = true;
+
+            if (vm.CurrentQuestion < vm.Count - 1)
+            {
+                vm.CurrentQuestion++;
+            }
+            else
+            {
+                // Show ending page
+                CategoriesViewModel.Current.Reset();
+
+                //Navigation.PopToRootAsync();
+                //Navigation.PushModalAsync(new MainPage());
+
+                /*
+                 * On ending page on Play again? button or whatevs:
+                 *  Application.Current.MainPage = new MainPage();
+                */
+
+            }
         }
     }
 }

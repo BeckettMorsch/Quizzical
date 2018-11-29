@@ -33,7 +33,9 @@ namespace Quizzical.ViewModels
                                 Answer1 = "Apple",
                                 Answer2 = "Banana",
                                 Answer3 = "Cantaloupe",
-                                Answer4 = "Dogshit"
+                                Answer4 = "Dog",
+                                Category = "Category 1",
+                                CorrectAnswer = 1
                             }
                 );
             Questions.Add(new QuestionItem
@@ -43,13 +45,32 @@ namespace Quizzical.ViewModels
                                 Answer1 = "SKT T1",
                                 Answer2 = "UR MUM",
                                 Answer3 = "GAY",
-                                Answer4 = "NO u"
+                                Answer4 = "NO u",
+                                Category = "Category 2",
+                                CorrectAnswer = 2
                             }
                 );
+            Questions.Add(new QuestionItem
+            {
+                                QuestionNum = 3,
+                                Question = "This is question 3 and it is a test",
+                                Answer1 = "T1",
+                                Answer2 = "MUM",
+                                Answer3 = "GY",
+                                Answer4 = "NO",
+                                Category = "Category 3",
+                                CorrectAnswer = 3
+            }
+                            );
+
+            //Questions = JsonConvert.Deserialize<List<QuestionItem>>(content);
 
             CurrentQuestion = 0;
             OnPropertyChanged("Count");
 
+            Message = "ASDKJFLD";
+            ShowQuestion = true;
+            
         }
 
         public static CategoriesViewModel Current
@@ -103,6 +124,17 @@ namespace Quizzical.ViewModels
         public bool ShowAnswer
         {
             get { return !showQuestion; }
+        }
+
+        public string message = "ASDKJFLD";
+        public string Message
+        {
+            set
+            {
+                message = value;
+                OnPropertyChanged("Message");
+            }
+            get { return message; }
         }
 
         public void OnPropertyChanged (string property)

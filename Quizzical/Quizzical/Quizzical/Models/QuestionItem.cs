@@ -13,5 +13,6 @@ namespace Quizzical.Models
         public string Answer4 { get; set; }
         public int CorrectAnswer { get; set; }
         public int QuestionNum { get; set; }
+        public string Category { get; set; }
     }
 }
