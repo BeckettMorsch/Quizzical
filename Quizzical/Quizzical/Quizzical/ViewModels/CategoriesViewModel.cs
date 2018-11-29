@@ -14,6 +14,7 @@ namespace Quizzical.ViewModels
         private int currentQuestion = 0;
         //private ObservableCollection<Categories> Category { get; set; }
         private ObservableCollection<QuestionItem> Questions { get; set; }
+        private static int numberCorrect = 0;
 
         private CategoriesViewModel()
         {
@@ -29,39 +30,39 @@ namespace Quizzical.ViewModels
 
             // TODO: Load all the questions
             Questions.Add(new QuestionItem
-                            {
-                                QuestionNum = 1,
-                                Question = "This is question 1 and it is a test",
-                                Answer1 = "Apple",
-                                Answer2 = "Banana",
-                                Answer3 = "Cantaloupe",
-                                Answer4 = "Dog",
-                                Category = "Category 1",
-                                CorrectAnswer = 1
-                            }
-                );
-            Questions.Add(new QuestionItem
-                            {
-                                QuestionNum = 2,
-                                Question = "This is question 2 and it is a test",
-                                Answer1 = "SKT T1",
-                                Answer2 = "UR MUM",
-                                Answer3 = "GAY",
-                                Answer4 = "NO u",
-                                Category = "Category 2",
-                                CorrectAnswer = 2
-                            }
+            {
+                QuestionNum = 1,
+                Question = "This is question 1 and it is a test",
+                Answer1 = "Apple",
+                Answer2 = "Banana",
+                Answer3 = "Cantaloupe",
+                Answer4 = "Dog",
+                Category = "Category 1",
+                CorrectAnswer = 1
+            }
                 );
             Questions.Add(new QuestionItem
             {
-                                QuestionNum = 3,
-                                Question = "This is question 3 and it is a test",
-                                Answer1 = "T1",
-                                Answer2 = "MUM",
-                                Answer3 = "GY",
-                                Answer4 = "NO",
-                                Category = "Category 3",
-                                CorrectAnswer = 3
+                QuestionNum = 2,
+                Question = "This is question 2 and it is a test",
+                Answer1 = "SKT T1",
+                Answer2 = "UR MUM",
+                Answer3 = "GAY",
+                Answer4 = "NO u",
+                Category = "Category 2",
+                CorrectAnswer = 2
+            }
+                );
+            Questions.Add(new QuestionItem
+            {
+                QuestionNum = 3,
+                Question = "This is question 3 and it is a test",
+                Answer1 = "T1",
+                Answer2 = "MUM",
+                Answer3 = "GY",
+                Answer4 = "NO",
+                Category = "Category 3",
+                CorrectAnswer = 3
             }
                             );
 
@@ -69,10 +70,10 @@ namespace Quizzical.ViewModels
 
             CurrentQuestion = 0;
             OnPropertyChanged("Count");
-
+            //numberCorrect = 0;
             Message = "Perfect";
             ShowQuestion = true;
-            
+
         }
 
         public static CategoriesViewModel Current
@@ -109,17 +110,17 @@ namespace Quizzical.ViewModels
         {
             get {
                 return Questions.Count;
-                }
+            }
         }
 
         private bool showQuestion = true;
         public bool ShowQuestion
         {
-            get { return showQuestion;  }
+            get { return showQuestion; }
             set {
-                    showQuestion = value;
-                    OnPropertyChanged("ShowQuestion");
-                    OnPropertyChanged("ShowAnswer");
+                showQuestion = value;
+                OnPropertyChanged("ShowQuestion");
+                OnPropertyChanged("ShowAnswer");
             }
         }
 
@@ -137,6 +138,17 @@ namespace Quizzical.ViewModels
                 OnPropertyChanged("Message");
             }
             get { return message; }
+        }
+
+        public int NumberCorrect
+            {
+                set { numberCorrect++; }
+                get { return numberCorrect; }
+            }
+        public int ResetCorrect
+        {
+            set { numberCorrect = 0; }
+            get {return numberCorrect = 0; }
         }
 
         public void OnPropertyChanged (string property)

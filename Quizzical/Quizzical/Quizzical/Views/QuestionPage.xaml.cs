@@ -35,6 +35,7 @@ namespace Quizzical.Views
                 // vm.TotalCorrect++;
                 // vm.Score += whatever
                 vm.Message = "You are correct!";
+                vm.NumberCorrect++;
             }
             else
             {

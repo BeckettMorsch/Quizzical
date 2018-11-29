@@ -4,12 +4,22 @@
              x:Class="Quizzical.Views.EndPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="You got ____ out of 25 questions correct!"
+            <Label Text="You got "
+                   FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding NumberCorrect}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   Font="40" />
+            <Label Text="out of 25 questions correct!"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Large" />
 
             <Button Text="Retry?"
-                    VerticalOptions="Center"
+                    FontSize="Large"
+                    VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="Button_Clicked"/>
         </StackLayout>
