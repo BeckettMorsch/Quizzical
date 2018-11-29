@@ -68,7 +68,7 @@ namespace Quizzical.ViewModels
             CurrentQuestion = 0;
             OnPropertyChanged("Count");
 
-            Message = "ASDKJFLD";
+            Message = "";
             ShowQuestion = true;
             
         }
