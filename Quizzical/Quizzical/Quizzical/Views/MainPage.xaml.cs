@@ -20,7 +20,7 @@ namespace Quizzical
 
         async private void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new QuestionPage());
+            await Application.Current.MainPage.Navigation.PushAsync(new QuestionPage());
         }
     }
 }

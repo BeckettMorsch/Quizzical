@@ -25,6 +25,8 @@ namespace Quizzical.ViewModels
 
         public void Reset()
         {
+            Questions.Clear();
+
             // TODO: Load all the questions
             Questions.Add(new QuestionItem
                             {
