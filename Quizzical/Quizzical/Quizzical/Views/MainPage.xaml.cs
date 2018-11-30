@@ -16,11 +16,18 @@ namespace Quizzical
             InitializeComponent();
 
             CategoriesViewModel.Current.Reset();
+
+            BackgroundImage = "Wishie.jpg";
         }
 
         async private void Button_Clicked(object sender, EventArgs e)
         {
             await Application.Current.MainPage.Navigation.PushAsync(new QuestionPage());
+        }
+
+        async private void TOS_Button(object sender, EventArgs e)
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new TOSPage());
         }
     }
 }

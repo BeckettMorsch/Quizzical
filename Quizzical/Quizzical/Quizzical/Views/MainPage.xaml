@@ -2,16 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Quizzical"
-             x:Class="Quizzical.MainPage">
+             x:Class="Quizzical.MainPage"
+             Title="Quizzical">
 
     <StackLayout>
         <!-- Place new controls here -->
+       
         <Button Text= "PLAY" 
-           Font="100"
+           Image="Jenna.jpg"
+           Font="10"
            HorizontalOptions="CenterAndExpand" 
            VerticalOptions="CenterAndExpand"
-           BackgroundColor="Aqua"
-           Clicked="Button_Clicked"/>
-    </StackLayout>
+           Clicked="Button_Clicked"
+           BorderRadius="0"/>
+         
+        <Button 
+            Text="TERMS OF WISHIE"
+            Font="25"
+            HorizontalOptions="Center"
+            Clicked="TOS_Button"/>
 
+           
+    </StackLayout>
 </ContentPage>
